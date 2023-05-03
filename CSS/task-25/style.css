@@ -1,0 +1,147 @@
+.ground{
+    background-color: black;  
+    padding: 20px 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head a{
+    color:#fff;
+    font-size: 25px;
+}
+.icon i{
+    color: #fff;
+}
+.navbar{
+    display: none;
+}
+.navbar ul li{
+    display: inline-block;
+    color: #fff;
+}
+@media(min-width: 992px){
+    .navbar{
+        display: block;
+    }
+    .navbar ul li{
+        display: inline-block;
+        color: #fff;
+        padding: 0 15px;
+    }
+    .icon i{
+        display: none;
+    }
+   
+}
+/* main */
+.main h1{
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.main p{
+    font-size: 20px;
+    color: grey;
+    margin-bottom: 15px;
+}
+.main div{
+    padding: 20px 15px;
+    max-height: 400px;
+    max-width: 900px;
+}
+.main img{
+    width: 100%;
+}
+.main a{
+    background-color: dodgerblue;
+    display: inline-block;
+    padding: 15px 10px;
+    border-color: dodgerblue;
+    border-radius: 5px;
+    color: #fff;
+}
+@media(min-width: 992px){
+   .main{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+   
+}
+.back{
+    background-color: rgba(27, 27, 27,0.5);
+    padding: 70px 0;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+.back p{
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+}
+.card-1{
+    border: 2px solid rgb(172, 172, 172);
+    border-radius: 10px;
+   
+}
+.paragraf{
+    padding:20px 17px 0 17px;
+}
+.card-1 h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.card-1 p{
+    font-size: 20px;
+    margin-bottom: 45px;
+}
+.top{
+    padding: 10px 0 10px 0;
+}
+.card-1{
+    gap: 15px;
+}
+.card a{
+    background-color: dodgerblue;
+    display: inline-block;
+    padding: 15px 10px;
+    border-color: dodgerblue;
+    border-radius: 5px;
+    color: #fff;
+    margin: 15px 0 15px 0;
+    margin-left: 15px;
+}
+.top{
+    background-color: rgba(172, 172, 172, 0.5);
+}
+.card-1 .top{
+    border-top: 1px solid gray;
+}
+@media(min-width:992px){
+  .card{
+    display: flex;
+    justify-content: space-between;
+    gap:15px;
+  }
+  .card-1{
+    width:30%;
+  }
+  /* .container{
+    max-width: 1200px;
+    margin: 0 auto;
+  } */
+}
+.footer{
+    margin-top: 90px;
+    background-color: rgb(27, 27, 27);
+    padding: 80px 0;
+}
+.footer p{
+    text-align: center;
+    color: #fff;
+  
+}

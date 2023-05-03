@@ -1,0 +1,40 @@
+.header{
+    background-color: black;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+ .hamlet a{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+ }
+.navbar{
+    display: none;
+}
+.menu a{
+    color: #fff;
+}
+
+@media(min-width: 992px){
+    .navbar{
+        display: block;
+    }
+      .navbar ul li{
+         display: inline-block;
+         margin: 0 15px;
+      }
+      .navbar ul li:last-child{
+        background-color: hotpink;
+        padding: 20px 10px;
+      }
+     .menu{
+        display: none;
+     }
+    }
+
+
+

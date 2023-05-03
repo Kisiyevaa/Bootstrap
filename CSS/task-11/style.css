@@ -1,0 +1,59 @@
+h1{
+    font-family: 'Great Vibes', cursive;
+   font-size: 70px;
+   text-align: center;
+   margin-top: 10px;
+}
+p{
+    color: rgb(163, 114, 54);
+    font-size: 15px;
+    letter-spacing: 8px;
+    text-align: center;
+    margin: 10px 0 8px;
+    border-bottom: 1px solid rgb(82, 80, 80);
+}
+#header{
+    padding: 20px 0;
+    text-align: center;
+}
+#header li{
+    display: inline-block;
+    margin: 0 10px;
+}
+#header li a{
+    color: black;
+}
+.main{
+    background:url(./images.jpeg) center/cover;
+   height: 70vh;
+}
+.main{
+    padding-top:340px;
+    padding-left: 80px;
+}
+.paragrafh{
+    width: 500px;
+    background-color: rgb(43, 42, 42);
+}
+.paragrafh h4{
+   text-transform: uppercase;
+   background-color: rgb(255, 174, 0);
+   color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px 20px;
+    
+}
+
+.paragrafh h2{
+    text-transform: uppercase;
+     color: white;
+     margin-left: 20px;
+     font-size: 30px;
+}
+.paragrafh span{
+    color: white;
+     text-transform: uppercase;
+     font-size: 15px;
+     margin-left: 20px;
+}

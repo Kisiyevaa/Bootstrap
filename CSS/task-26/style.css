@@ -1,0 +1,139 @@
+.head{
+    background-color: black;
+    padding: 20px 0;
+}
+.container{
+    width: 96%;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.photo h1{
+   color: #fff;
+   font-size: 30px;
+   font-weight: bold;
+}
+.navbar ul{
+    display: flex;
+}
+ul li{
+    color: #777777;
+    font-size: 15px;
+    margin: 0 15px;
+    transition: 0.3s all ease;
+}
+.icon i{
+    color: #777777;
+    margin: 0 15px;
+}
+.navbar ul li:hover{
+    color: #20c997;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+   
+  }
+  .dropdown p{
+    padding: 10px;
+    color: #777777;
+  }
+
+  .down {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+   
+  }
+  .dropdown:hover .down{
+    display: block;
+    z-index: 20;
+  }
+  /* .sub-menu{
+    position: relative;
+  } */
+  .menu{
+    display: none;
+    /* position: absolute; */
+    position: relative;
+    top: 100px;
+    left: 70px;
+    background-color: #f9f9f9;
+   
+  }
+  .dropdown .sub-menu:hover .menu{
+    display: block;
+  }
+  .back{
+    background-color: black;
+  }
+  .main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .main .alt{
+    position: relative;
+  }
+  .position{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+.main .alt:hover .position{
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.700717787114846) 0%);
+   }
+  .main img{
+    width: 410px;
+    margin-top: 25px;
+  }
+  .footer{
+    text-align: center;
+    padding: 60px 0;
+    color: #777777;
+  }
+  .nature a{
+    border: 2px solid #fff ;
+    display: inline-block;
+    padding: 10px 30px;
+    color: #fff;
+    font-size: 15px;
+  }
+  .nature a:hover{
+    background-color: #fff;
+    color: black;
+  }
+ 
+/* .nature{
+    position: absolute;
+    top: 200px;
+    left: 130px;
+} */
+.nature h2{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 25px;
+    color: #fff;
+}
+img{
+    filter: grayscale(100%);
+    overflow: hidden;
+}
+.alt:hover {
+    filter: grayscale(0);
+}
+
+.alt:hover img{
+  scale: 1.02;
+}

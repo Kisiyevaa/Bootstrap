@@ -1,0 +1,67 @@
+.container{
+    width: 1156px;
+    margin: 0 auto;
+}
+.white{
+    background-color: #fff;
+    height: 90vh;
+    position: relative;
+}
+.absolut{
+    padding: 90px 0;
+}
+.foto1 img{
+    position: absolute;
+    left: 105px;
+}
+.foto2 img{
+    position: absolute;
+    left: 607px;
+    top: 56px;
+}
+.paragrafh {
+    position: absolute;
+    left: 607px;
+    width: 550px;
+    top: 170px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 170%;
+    color: #595959;
+}
+.paragrafh p{
+    margin-top: 10px;
+}
+.paragrafh b{
+    font-weight: bold;
+}
+.paragrafh u{
+    text-decoration: underline;
+    color: #56B84E;
+}
+.green{
+    background-color: #56B84E;
+    width: 40px;
+    height: 3px;
+    margin-top: 25px;
+}
+
+.bold h3{
+    color: #4D4D4D;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 50%;
+    margin-top: 30px;
+}
+.bold span{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 10px;
+    color: #808080;
+}

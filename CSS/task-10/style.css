@@ -1,0 +1,62 @@
+body{
+    background: #C33764;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.box{
+   width: 520px;
+   background-color: white;
+   margin: 30px auto;
+  
+}
+
+input{
+    margin: 0 10px 0 0;
+}
+.form1{
+    width: 48%;
+}
+.form1 input{
+    width: 100%;
+    margin: 10px 0;
+}
+.forms{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+
+}
+
+ .box{
+    padding: 10px 20px;
+}
+.box h1{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.gender{
+    display: flex;
+    justify-content:space-between ;
+    width: 80%;
+    margin-bottom: 20px;
+
+}
+.submit{
+    width: 100%;
+    padding: 10px 0 ;
+    margin-bottom: 30px;
+    background: #C33764;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.box h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}

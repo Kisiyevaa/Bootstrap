@@ -1,0 +1,41 @@
+.container{
+   width: 1116px; 
+   margin: 0 auto; 
+} 
+body{
+    padding: 100px 0 0 0;
+}
+.left{
+ background: url(background.jpeg);
+ height: 60vh;
+ position: relative;
+}
+
+.left img{
+    position: absolute;
+    top: -30px;
+}
+.left .right{
+    position: absolute;
+    width: 480px;
+    right: 40px;
+    top: 100px;
+
+}
+.right h2{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    color: #56B84E;
+    margin-bottom: 20px;
+}
+.right p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #4D4D4D;
+}

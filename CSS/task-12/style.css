@@ -1,0 +1,79 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.img{
+    background:url(Uniweb.jpg.jpg)center/cover;
+    height: 100vh;
+    padding: 40px 0;
+}
+.container{
+    width: 1150px;
+    margin: 0 auto;
+}
+.header div{
+    vertical-align: middle;
+    display: inline-block;
+}
+ul{
+    margin-left: 150px;
+}
+ul li{
+    display: inline-block;   
+    margin: 20px;
+}
+ul li a{
+    color: white; 
+    font-weight: 500;
+}
+li a:hover{
+    color:#d82a4e;
+}
+.nav li:last-child{
+  margin-left: 100px;
+  background-color: #d82a4e;
+  padding: 20px 80px;
+  color: white; 
+  font-size: 15px;
+  cursor: pointer;
+  border-color: #d82a4e;
+}
+main{
+    text-align: center;
+    color: white;
+}
+h1{
+    font-size: 60px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-top: 200px;
+}
+p{
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 500;
+    width: 80%;
+    margin: 20px auto;
+}
+form{
+    margin-top: 80px;
+}
+input{
+    margin: 10px;
+    height: 53px;
+    width: 300px;
+    outline: none;
+    padding: 0 30px;
+}
+input::placeholder{
+    
+    font-size: 15px;
+}
+input:last-child{
+    background-color: #d82a4e;
+    height: 53px;
+    width: 220px;
+    border-color: #d82a4e;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+}

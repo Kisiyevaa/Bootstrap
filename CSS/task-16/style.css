@@ -1,0 +1,68 @@
+.img{
+    background: url(image.jpg)center/cover;
+   height: 100vh;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #E29C89;
+    align-items: center;
+   
+}
+.header ul {
+  display: flex;
+  column-gap: 30px;
+}
+.header li a{
+   color: #fff;
+   font-family: "Jost",sans-serif;
+   font-size: 18px;
+}
+.header li{
+    padding: 35px 0;
+}
+
+.header img{
+    font-size: 20px;
+    margin-left: 40px;
+}
+ul li:last-child{
+    background-color: #E29C89;
+    padding: 35px 40px;
+}
+.main h1{
+    font-size: 60px;
+    text-align: center;
+    color: #fff;
+    width: 47%;
+    margin: 180px auto;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+p{
+    font-size: 25px;
+    color: #fff;
+}
+input{
+   /* background: rgba(255, 255, 255, 0); */
+   color: #fff;
+   font-size: 25px;
+   background-color: transparent;
+}
+select{
+    background: rgba(255, 255, 255, 0); 
+    color: #fff;
+    padding: 0 30px;
+    background-color: transparent;
+}
+.form1{
+    display: flex;
+    justify-content: space-evenly;
+}
+button{
+    padding: 0 30px;
+}
+
+

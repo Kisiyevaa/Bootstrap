@@ -1,0 +1,243 @@
+.head{
+    background-color: black;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.head p{
+    display: inline-block;
+    color: white;
+    margin: 0 5px;
+    font-size: 12px;
+    transition: 0.5s;
+}
+.head i{
+    color: white;
+   margin: 0 8px;
+   font-size: 10px;
+   transition: 0.5s;
+}
+.head p:hover i{
+    color: #d2aa5c;
+}
+.head p:hover {
+    color: #d2aa5c;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+    align-items: center;
+}
+.header i{
+    margin: 0 15px;
+    font-size: 25px;
+    cursor: pointer;
+}
+ .border{
+    height: 1px;
+    width: 95%;
+    background-color: #bebebe;
+    margin: 0 auto;
+}  
+.headeri:hover{
+    color: red;
+}
+.menu{
+    display: none;
+}
+.bars i{
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    padding: 10px;
+}
+.bars{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.bars span{
+    display: none;
+}
+@media(min-width:768px){
+    .bars span{
+        display: block;
+        color: #2A2A2A;
+        font-size: 16px;
+    }
+    .bars i{
+        color: #2A2A2A;
+        background: none;
+    }
+    .bars{
+        align-items: center;
+    }
+}
+@media(min-width:992px){
+    .bars{
+        display: none;
+    }
+    .main{
+      width: 100%;
+    }
+    .menu{
+        display: block;
+    }
+    .menu ul {
+       display: flex;
+       color: #2A2A2A;
+       font-size: 16px;
+       justify-content: center;
+       
+    }
+    .menu li{
+     padding: 25px 15px;
+    }
+    .menu i{
+        font-size: 10px;
+    }
+    .dropdown{
+        position: relative;
+    }
+    .down{
+       position: absolute;
+       background-color: black;
+       top :40px;
+       width: 150px;
+       visibility: hidden;
+    }
+    .down p{
+        color: #2A2A2A;
+        padding: 10px 20px;
+        border-top: 1px solid #2A2A2A;
+        background-color: #fff;
+       
+    }
+    .dropdown:hover .down{
+        transform: translateY(10px);
+        visibility: visible;
+        transition: ease-in-out .9s;
+        z-index: 99;
+    }
+    ul li:hover{
+        color: red;
+    }
+} 
+.back{
+    background: url(./img/img1.jpeg)center/cover;
+    height: 80vh;
+}
+.background{
+    height: 100%;
+    width: 40%;
+    background-color: rgba(0, 0, 0,0.5);
+    margin: 0 auto;
+    text-align: center;
+}
+.background{
+   padding: 40px 5px;
+}
+.background h2{
+    color: #f01737;
+        font-size: 36px;
+        font-family: 'Philosopher', sans-serif;
+        padding-top: 30px;
+        text-transform: capitalize;
+}
+.background h3{
+    color: #fff;
+    font-size: 22px;
+    font-family: "Text ME One",sans-serif;
+    text-transform: capitalize;
+    margin-top: 40px;
+    position: relative;
+}
+.background h3::before{
+    content: "";
+    background-image: url(./img/right.png);
+    color: #fff;
+    height: 20px;
+    width: 40px;
+    transform: rotateY(180deg); 
+    position: absolute;
+    left: -20px;
+}
+.background h3::after{
+    content: "";
+    background-image: url(./img/right.png);
+    height: 20px;
+    width: 40px;
+    position: absolute;
+   right: -15px;
+}
+.background a{
+    display: inline-block;
+   margin-top: 20px;
+    padding: 10px 25px;
+    background-color: #fff;
+    color: #000;
+}
+.background a:hover{
+    background: #d2aa5c;
+    color: #fff;
+}
+.drop{
+    position: absolute;
+    width: 100%;
+    top :40px;
+     left: 0;
+     display: flex;
+    justify-content: space-evenly;
+    background-color: #fff;
+    z-index: 99;
+    /* visibility: hidden; */
+ }
+ .drop a{
+    display: inline-block;
+    background-color: #f01737;
+    padding: 5px 20px;
+    color: #fff;
+ }
+ .img img{
+     width: 250px; 
+ }
+ .dropdown:hover .down{
+    transform: translateY(10px);
+    visibility: visible;
+    transition: ease-in-out .9s;
+    z-index: 99;
+}
+@media(min-width:576px){
+    .back-text{
+        transform: skew(10deg);
+    }
+    .background{
+        transform: skew(-10deg);
+    }
+    .background{
+        padding: 20px 50px;
+    }
+    .background a{
+        margin-top: 50px;
+    }
+
+}
+@media(min-width:768px){
+    .background{
+        padding: 30px 70px;
+    }
+}
+@media(min-width:992px){
+    .background{
+        padding: 60px 80px;
+     }
+     .background h3::before{
+        left: 30px;
+    }
+       
+    .background h3::after{
+        right: 30px;
+    }
+
+}

@@ -1,0 +1,41 @@
+.top{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 9px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: 2.7em;
+    color: #666666;
+    background: #E6E6E6;
+    padding: 7px 37px 4px;
+}
+.img{
+
+}
+.paragraf{
+    display: flex;
+    justify-content: flex-end;
+}
+.paragraf p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 9px;
+    line-height: 12px;
+    text-align: right;
+    letter-spacing: 0.1em;
+    color: #666666;
+    margin-top: 25px;
+    width: 70%;
+}
+.paragraf img{
+    width: 60px;
+}
+.img{
+    width: 268px;
+}
+/* .container{
+    width: 1156px;
+    margin: 0 auto;
+} */

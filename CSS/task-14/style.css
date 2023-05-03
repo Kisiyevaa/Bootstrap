@@ -1,0 +1,22 @@
+.img{
+    background: url(home.jpg)center/cover;
+    height: 100vh;
+    padding: 40px 0;
+}
+.header div{
+    display: inline-block;
+    vertical-align: middle;
+}
+.nav ul li{
+    display: inline-block;
+}
+ul{
+    margin-left: 150px;
+}
+ul li{
+    display: inline-block;   
+    margin: 20px;
+}
+ul li a{
+    font-weight: 500;
+}

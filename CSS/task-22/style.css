@@ -1,0 +1,50 @@
+.back{
+    background: url(background.png);
+    height: 70vh;
+    position: relative;
+}
+ .text h1{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 54px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding-top: 60px;
+}
+.text p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+   
+}
+.photo img{
+    position: absolute;
+    left: 431px;
+    top: 182px;
+}
+.click {
+    position: absolute;
+    left: 351px;
+    top: 240px;
+    
+}
+.click-2{
+   position: absolute; 
+   right: 376px;
+   top: 240px;
+}
+.circle{
+    position: absolute;
+    top: 416px;
+    left: 633px;
+}
+.circle img{
+    padding: 0 2px;
+}

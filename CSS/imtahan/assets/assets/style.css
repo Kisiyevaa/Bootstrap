@@ -1,0 +1,158 @@
+.head{
+    background-color: gray;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 5px;
+    align-items: center;
+}
+.list{
+    display: none;
+}
+.logo img{
+   width: 100px;
+}
+.menu{
+    color: yellow;
+    font-size: 20px;
+}
+@media(min-width:992px){
+    .head{
+       background-color: #f9f9ff;
+    }
+  .list{
+    display: block;
+  }
+   .list ul{
+    display: flex;
+   }
+   .list ul li{
+    font-size: 15px;
+    color: #002347;
+    margin: 0 10px;
+   }
+   .list i{
+    color: #002347;
+   }
+   .list ul li:hover{
+    color: yellow;
+   }
+   .list ul li i:hover{
+    color: yellow;
+   }
+   .menu{
+    display: none;
+   }
+}
+
+ h1{
+ font-size: 36px;
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: bold;
+ color: #002347;
+ padding-top: 80px;
+ line-height: 30px;
+ text-align: center;
+ margin-bottom: 15px;
+}
+ p{
+    font-style: italic;
+    font-size: 16px;
+    color: #7b838a;
+    text-align: center;
+
+}
+.card{
+  padding-top: 30px;
+}
+.card-1{
+    background-color: #f9f9ff;
+    padding: 15px 20px;
+   transition: 0.3s;
+}
+.card-1:hover{
+    box-shadow: 0 0 6px gray;
+}
+.card-1 h3{
+    color: #002347;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.card-1 p{
+    font-size: 16px;
+    color: #7b838a;
+    font-style: normal;
+    text-align: left;
+}
+.card-1 .icon i{
+    color: #002347;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+@media(min-width:768px){
+    .card{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+       }
+    .card-1{
+     width: 33%;
+    }
+ }
+@media(min-width:992px){
+   .card{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   }
+   .card-1{
+    width: 27%;
+   }
+}
+.img{
+    background: url(./img/c1.jpg.webp)center/cover;
+    height: 40vh;
+    position: relative;
+}
+.cards h3{
+    color: #002347;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 15px;
+}
+.section{
+    padding-top: 50px;
+}
+.cards p{
+    font-style: normal;
+    text-align: left;
+    margin-top: 15px;
+}
+.cards button{
+    background-color: #002347;
+    color: #f9f9ff;
+    margin-top: 10px;
+    border-color: #002347;
+}
+@media(min-width:768px){
+    .section{
+     display: flex;
+     justify-content:space-between;
+     flex-wrap: wrap;
+    }
+    .cards{
+     width: 40%;
+     margin-top: 15px;
+    }
+  }
+@media(min-width:992px){
+   .section{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   }
+   .cards{
+    width: 30%;
+   }
+ }
